@@ -31,7 +31,7 @@ h1.fancy {
 }
 
 .brand img {
-  max-height: 50px;
+  height: 60px;
   transition: filter .25s ease-in-out;
   -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(100%); /* FF 35+ */
