@@ -17,3 +17,12 @@ h1 {
   -webkit-text-fill-color: transparent;
   margin-bottom: 2rem;
 }
+
+.footer a {
+  @extend .text-dark;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
