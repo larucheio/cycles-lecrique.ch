@@ -29,3 +29,16 @@ h1.fancy {
 .footer a:hover {
   text-decoration: underline;
 }
+
+.brand img {
+  max-height: 50px;
+  transition: filter .25s ease-in-out;
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+}
+
+.brand img:hover,
+.brand img:focus {
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+}

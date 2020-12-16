@@ -1,0 +1,119 @@
+- name: 'Merida'
+  url: 'https://velo-merida-geneve.ch'
+  image: '/assets/img/brands/merida.svg'
+
+- name: 'Wilier'
+  url: 'https://wilier.com'
+  image: '/assets/img/brands/wilier.png'
+
+- name: 'Vélo de ville'
+  url: 'https://www.velo-de-ville.com'
+  image: '/assets/img/brands/velo-de-ville.svg'
+
+- name: 'Centurion'
+  url: 'https://www.centurion.de'
+  image: '/assets/img/brands/centurion.svg'
+
+- name: 'Vision'
+  url: 'https://www.visiontechusa.com'
+  image: '/assets/img/brands/vision.png'
+
+- name: 'DT Swiss'
+  url: 'https://www.dtswiss.com'
+  image: '/assets/img/brands/dtswiss.svg'
+
+- name: 'Garmin'
+  url: 'https://buy.garmin.com/fr-CH/CH/cIntoSports-cCycling-p1.html'
+  image: '/assets/img/brands/garmin.svg'
+
+- name: 'FSA Full Speed Ahead'
+  url: 'https://www.fullspeedahead.com'
+  image: '/assets/img/brands/fullspeedahead.png'
+
+- name: 'Shimano'
+  url: 'https://bike.shimano.com/fr-FR/components/road.html'
+  image: '/assets/img/brands/shimano.png'
+
+- name: 'Pro Bike Gear'
+  url: 'https://www.pro-bikegear.com'
+  image: '/assets/img/brands/pro.png'
+
+- name: 'Campagnolo'
+  url: 'https://www.campagnolo.com'
+  image: '/assets/img/brands/campagnolo.png'
+
+- name: 'Fulcrum Wheels'
+  url: 'https://www.fulcrumwheels.com'
+  image: '/assets/img/brands/fulcrum.png'
+
+- name: 'Sram'
+  url: 'https://www.sram.com'
+  image: '/assets/img/brands/sram.svg'
+
+- name: 'Selle SMP'
+  url: 'https://www.sellesmp.com'
+  image: '/assets/img/brands/sellesmp.png'
+
+- name: 'Rockshox'
+  url: 'https://www.sram.com/en/rockshox'
+  image: '/assets/img/brands/rockshox.svg'
+
+- name: 'ZIPP'
+  url: 'https://www.sram.com/en/zipp'
+  image: '/assets/img/brands/zipp.svg'
+
+- name: 'Swisstop'
+  url: 'https://www.swissstop.ch'
+  image: '/assets/img/brands/swisstop.png'
+
+- name: 'Fox'
+  url: 'https://www.ridefox.com/subhome.php?m=bike'
+  image: '/assets/img/brands/fox.png'
+
+- name: 'Selle Italia'
+  url: 'https://www.selleitalia.com'
+  image: '/assets/img/brands/selleitalia.png'
+
+- name: 'Veloflex'
+  url: 'https://www.veloflex.it'
+  image: '/assets/img/brands/veloflex.svg'
+
+- name: 'Pirelli'
+  url: 'https://www.chrissports.ch/fr-ch/pirelli_marke'
+  image: '/assets/img/brands/pirelli.svg'
+
+- name: 'Chrome'
+  url: 'https://www.chrissports.ch/fr-ch/chrome_marke'
+  image: '/assets/img/brands/chrome.svg'
+
+- name: 'BBB Cycling'
+  url: 'https://bbbcycling.com'
+  image: '/assets/img/brands/bbb.svg'
+
+- name: 'Muc-off'
+  url: 'https://muc-off.com'
+  image: '/assets/img/brands/muc-off.png'
+
+- name: 'Giro'
+  url: 'https://www.giro.com'
+  image: '/assets/img/brands/giro.svg'
+
+- name: 'Proviz'
+  url: 'https://www.provizsports.com/row/'
+  image: '/assets/img/brands/proviz.png'
+
+- name: 'Vélosophe'
+  url: 'https://www.velosophe.beer'
+  image: '/assets/img/brands/velosophe.svg'
+
+- name: 'Verofit'
+  url: 'https://www.verofit.ch'
+  image: '/assets/img/brands/verofit.png'
+
+- name: 'Clif Bar & company'
+  url: 'https://www.clifbar.com'
+  image: '/assets/img/brands/clifbar.svg'
+
+- name: 'nuun'
+  url: 'https://nuunlife.com/'
+  image: '/assets/img/brands/nuun.webp'

@@ -68,8 +68,16 @@ title: Cycles Lecrique
     </div>
   </div>
 
-  <div class="container mt-3">
-    <img src="/assets/img/brands.png" class="img-fluid" alt="">
+  <div class="container mt-5">
+    <div class="row">
+      {% for brand in site.data.brands %}
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3 p-4 text-center">
+          <a href="{{ brand.url }}" class="brand">
+            <img src="{{ brand.image }}" alt="{{ brand.name }}" target="_blank" rel="noreferrer" class="img-fluid">
+          </a>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </section>
 
