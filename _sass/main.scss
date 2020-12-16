@@ -5,3 +5,15 @@
 @import "variables";
 
 @import "bootstrap/bootstrap";
+
+h1 {
+  letter-spacing: 5px;
+  display: inline-block;
+  background-image: url('/assets/img/fond-pastel.jpg');
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 2rem;
+}
