@@ -7,7 +7,11 @@
 @import "bootstrap/bootstrap";
 
 h1 {
+  margin-bottom: 2rem;
   letter-spacing: 5px;
+}
+
+h1.fancy {
   display: inline-block;
   background-image: url('/assets/img/fond-pastel.jpg');
   background-repeat: repeat;
@@ -15,7 +19,6 @@ h1 {
   background-position: center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 2rem;
 }
 
 .footer a {
