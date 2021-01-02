@@ -2,10 +2,6 @@
   url: 'https://velo-merida-geneve.ch'
   image: '/assets/img/brands/merida.svg'
 
-- name: 'Wilier'
-  url: 'https://wilier.com'
-  image: '/assets/img/brands/wilier.png'
-
 - name: 'Vélo de ville'
   url: 'https://www.velo-de-ville.com'
   image: '/assets/img/brands/velo-de-ville.svg'
@@ -97,6 +93,14 @@
 - name: 'Giro'
   url: 'https://www.giro.com'
   image: '/assets/img/brands/giro.svg'
+
+- name: 'Schwalbe'
+  url: 'https://www.schwalbe.com/fr/start'
+  image: '/assets/img/brands/schwalbe.svg'
+
+- name: 'BELIMPORT'
+  url: 'https://www.belimport.ch/index.php/fr/'
+  image: '/assets/img/brands/belimport.png'
 
 - name: 'Proviz'
   url: 'https://www.provizsports.com/row/'
