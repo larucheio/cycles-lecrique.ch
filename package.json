@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/larucheio/cycles-lecrique.ch#readme",
   "dependencies": {
-    "bootstrap": "^5.0.0-beta1"
+    "bootstrap": "^5.0.0-beta1",
+    "swiper": "^6.4.5"
   }
 }

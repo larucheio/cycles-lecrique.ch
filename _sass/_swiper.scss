@@ -1,0 +1,46 @@
+
+.swiper-container {
+    height: 300px;
+}
+
+@include media-breakpoint-up(md) {
+  .swiper-container {
+      height: 500px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .swiper-container {
+      height: 700px;
+  }
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: white;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide--1 {
+  background-image: url('/assets/img/slider/atelier-1.jpg');
+}
+
+.swiper-slide--2 {
+  background-image: url('/assets/img/slider/atelier-2.jpg');
+}
+
+.swiper-slide--3 {
+  background-image: url('/assets/img/slider/atelier-4.jpg');
+}
+
+.swiper-slide--4 {
+  background-image: url('/assets/img/slider/atelier-3.jpg');
+}
+
+.swiper-slide--5 {
+  background-image: url('/assets/img/slider/atelier-5.jpg');
+}
