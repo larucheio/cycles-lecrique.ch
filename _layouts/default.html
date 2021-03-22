@@ -33,6 +33,15 @@
           prevEl: '.swiper-button-prev',
         },
       })
+
+      var myCollapse = document.getElementById('navbarToggler')
+      var bsCollapse = new bootstrap.Collapse(myCollapse, {
+        toggle: false
+      })
+      window.bsCollapse = bsCollapse
+      window.addEventListener('hashchange', function() {
+        bsCollapse.hide()
+      })
     </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -46,7 +55,7 @@
     </script>
   </head>
   <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
-    <nav id="navbar" class="navbar navbar-expand-lg sticky-top navbar-dark bg-body">
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark bg-body">
       <div class="container">
         <a class="navbar-brand" href="/">
           <img src="/assets/img/cycles-lecrique--logo-menu.png" alt="Cycles Lecrique" height="24">
@@ -57,19 +66,19 @@
         <div class="collapse navbar-collapse" id="navbarToggler">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" href="#news">News</a>
+              <a class="nav-link active" href="#news" onclick="bsCollapse.hide()">News</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#atelier">L'atelier</a>
+              <a class="nav-link" href="#atelier" onclick="bsCollapse.hide()">L'atelier</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#kmh">45km/h</a>
+              <a class="nav-link" href="#kmh" onclick="bsCollapse.hide()">45km/h</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#merida">Merida</a>
+              <a class="nav-link" href="#merida" onclick="bsCollapse.hide()">Merida</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#contact" onclick="bsCollapse.hide()">Contact</a>
             </li>
           </ul>
         </div>
