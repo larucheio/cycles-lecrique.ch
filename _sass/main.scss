@@ -44,3 +44,17 @@ h1.fancy {
   -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(0%); /* FF 35+ */
 }
+
+.merida__background {
+  height: 60vh;
+  background-image: url('/assets/img/merida-bike.jpg');
+  background-size: cover;
+  background-position: center right;
+  background-attachment: fixed;
+}
+
+@media (hover: none) {
+   .merida__background {
+       background-attachment: initial;
+   }
+}
