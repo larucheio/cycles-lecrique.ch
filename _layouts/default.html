@@ -54,7 +54,7 @@
       gtag('config', 'G-52BT442K46');
     </script>
   </head>
-  <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="100" tabindex="0">
+  <body>
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark bg-body">
       <div class="container">
         <a class="navbar-brand" href="/">
@@ -66,19 +66,22 @@
         <div class="collapse navbar-collapse" id="navbarToggler">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" href="#news" onclick="bsCollapse.hide()">News</a>
+              <a class="nav-link" href="/#news" onclick="bsCollapse.hide()">News</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#shop" onclick="bsCollapse.hide()">Le Shop</a>
+              <a class="nav-link" href="/#shop" onclick="bsCollapse.hide()">Le Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#kmh" onclick="bsCollapse.hide()">45km/h</a>
+              <a class="nav-link" href="/nos-velos" onclick="bsCollapse.hide()">Nos vélos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#merida" onclick="bsCollapse.hide()">Merida</a>
+              <a class="nav-link" href="/#kmh" onclick="bsCollapse.hide()">45km/h</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact" onclick="bsCollapse.hide()">Contact</a>
+              <a class="nav-link" href="/#merida" onclick="bsCollapse.hide()">Merida</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#contact" onclick="bsCollapse.hide()">Contact</a>
             </li>
           </ul>
         </div>
@@ -87,5 +90,32 @@
     <div>
       {{ content}}
     </div>
+
+    {% if page.velos == true %}
+      <script src="https://velocorner.ch/member-bikes/js/velocorner_member_bikes_app.min.js" charset=utf-8></script>
+      <script>
+          new VelocornerMemberBikes({
+                  container_selector: '#velocorner_member_bikes_app',
+                  member_id: 2098,
+                  language: 'fr',
+                  items_in_row: 3,
+            items_per_page: 9,
+            scroll_top_offset: -60,
+            disable_auto_scroll_on_init: true,
+
+                  ui_layout: {
+          search_bar: {
+          position: 'top', // top, left, right
+          visible: false
+            },
+
+            author_info_block: {
+            visible: false
+            },
+       },
+          });
+
+      </script>
+    {% endif %}
   </body>
 </html>
