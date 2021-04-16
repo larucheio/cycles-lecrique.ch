@@ -60,5 +60,15 @@ h1.fancy {
 }
 
 .velocorner-page[page=item-view] [info_table_cont] table td {
+    color: white !important;
+}
+
+.velocorner-filter-cont .category-switches-cont a {
+    display: inline-block;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
     color: white;
 }
