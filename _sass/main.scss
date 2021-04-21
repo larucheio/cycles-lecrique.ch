@@ -70,5 +70,13 @@ h1.fancy {
     font-weight: 700;
     text-align: center;
     text-decoration: none;
-    color: white;
+    color: white !important;
+    opacity: unset !important;
+}
+
+.velocorner-page[page=item-view] [author_enquire_cont] h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: large;
+    color: #000;
 }
